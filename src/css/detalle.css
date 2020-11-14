@@ -1,0 +1,93 @@
+/***********************************************************/
+/* detalle.css  Hoja de estilo de la página detalle        */
+/***********************************************************/
+
+/* Resetea los márgenes y el padding                       */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define las variables con los diferentes colores */
+
+:root {
+  --color_principal: #306291;
+  --color_fondo_header_footer: rgb(2, 58, 80);
+  --color_texto_menu_header: lightgray;
+  --color_texto_menu_header_hover: white;
+  --color_fondo_oscuro: rgba(69, 141, 209, 0.5);
+  --color_fondo_claro: rgba(92, 172, 247, 0.2);
+  --color_texto: #1f1f11;
+  --color_contraste: #d9645d;
+  --color_enlace_main: #14c9da;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+/*Extiende el modelo de caja alternativo para ser heredado por el resto de elementos*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: calc(0.8rem + 2vw);
+  font-family: "Roboto", "Serif";
+}
+
+h2 {
+  text-align: center;
+  font-size: calc(0.8rem + 1vw);
+  font-family: "Roboto", "Serif";
+}
+
+h3 {
+  text-align: center;
+  font-size: calc(0.5rem + 1vw);
+  font-family: "Roboto", "Serif";
+}
+
+h4 {
+  text-align: center;
+  font-size: calc(0.4rem + 1vw);
+  font-family: "Roboto", "Serif";
+}
+
+article,
+p,
+label,
+a,
+li {
+  font-size: calc(0.3rem + 0.9vw);
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecera {
+  display: block;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("../img/books-1617327_1920.jpg");
+  background-size: 98% auto;
+  background-color: transparent;
+  max-width: 100vw;
+  height: 100px;
+}
+
+.footer {
+  display: block;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  max-width: 100vw;
+  height: 100px;
+}
+
+
